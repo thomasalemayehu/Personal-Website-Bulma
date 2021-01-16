@@ -26,6 +26,15 @@
     line-height: 150%;
     font-size: 16px;
   }
+
+  /* Skills Section */
+  .skill-card-c {
+    width: 75%;
+    margin: auto;
+  }
+  .skills-icon-c {
+    width: 20%;
+  }
 }
 
 @media screen and (min-width: 500px) and (max-width: 768px) {
@@ -37,6 +46,10 @@
   .carousel .carousel-item {
     width: 313.5px;
     height: 266px;
+  }
+  .skill-card-c {
+    width: 75%;
+    margin: auto;
   }
 }
 /* Tablet Devices */
@@ -90,11 +103,40 @@
   .navbar-brand {
     letter-spacing: 3px;
   }
+  .carousel {
+    height: 360px;
+    width: 540px;
+    perspective: 275px;
+  }
+  .carousel .carousel-item {
+    width: 346.5px;
+    height: 294px;
+  }
+  .info-text {
+    line-height: 160%;
+    font-size: 19px;
+    padding-left: 2.2rem;
+  }
 }
 
 /* Full HD Devices */
 @media screen and (min-width: 1407px) {
   .navbar-item {
     font-size: 1.2rem;
+  }
+
+  .carousel {
+    height: 360px;
+    width: 540px;
+    perspective: 275px;
+  }
+  .carousel .carousel-item {
+    width: 363px;
+    height: 308px;
+  }
+  .info-text {
+    line-height: 160%;
+    font-size: 19px;
+    padding-left: 2.2rem;
   }
 }

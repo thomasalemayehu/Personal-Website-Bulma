@@ -7,9 +7,7 @@
   font-family: "Poppins", sans-serif;
   letter-spacing: 0.24rem;
 }
-.nav-item,
-.navbar-item,
-.navbar-brand {
+.nav-item {
   text-decoration: none;
   color: black;
 }
@@ -38,11 +36,14 @@
 }
 
 /* About Me Section */
+.hero-about-text-c {
+  font-family: "Quicksand", sans-serif;
+  line-height: 160%;
+  word-spacing: 0.5px;
+  letter-spacing: 1px;
+}
+
 .info-text {
   font-family: "Quicksand", sans-serif;
   line-height: 160%;
-  font-size: 1.125rem;
-}
-.columns {
-  border: 1px solid red;
 }

@@ -5,3 +5,13 @@
   -ms-transform: skew(-12deg);
   -o-transform: skew(-12deg);
 }
+
+.navbar-navigation-c:hover {
+  background-color: black !important;
+  color: white !important;
+}
+.navbar-navigation-c:hover nav {
+}
+.navbar-social-icons-c:hover {
+  opacity: 0.6;
+}

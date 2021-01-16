@@ -9,15 +9,58 @@
     height: 93vh;
   }
   /* About Section */
-  .section {
-    padding: 0;
+  .is-reversed-touch-c {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .carousel {
+    height: 210px;
+    width: 315px;
+    perspective: 150px;
+  }
+  .carousel .carousel-item {
+    width: 231px;
+    height: 196px;
+  }
+  .info-text {
+    line-height: 150%;
+    font-size: 16px;
   }
 }
 
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  .carousel {
+    height: 285px;
+    width: 427.5px;
+    perspective: 200px;
+  }
+  .carousel .carousel-item {
+    width: 313.5px;
+    height: 266px;
+  }
+}
 /* Tablet Devices */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .social-media-container {
     width: 50%;
+  }
+  /* About Section */
+  .is-reversed-touch-c {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .carousel {
+    height: 270px;
+    width: 405px;
+    perspective: 200px;
+  }
+  .carousel .carousel-item {
+    width: 280.5px;
+    height: 238px;
+  }
+  .info-text {
+    line-height: 150%;
+    font-size: 16px;
   }
 }
 
@@ -25,6 +68,20 @@
 @media screen and (min-width: 1024px) and (max-width: 1215px) {
   .navbar-brand {
     letter-spacing: 2.2px;
+  }
+  .carousel {
+    height: 300px;
+    width: 450px;
+    perspective: 250px;
+  }
+  .carousel .carousel-item {
+    width: 330px;
+    height: 280px;
+  }
+  .info-text {
+    line-height: 160%;
+    font-size: 18px;
+    padding-left: 2rem;
   }
 }
 

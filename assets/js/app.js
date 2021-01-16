@@ -23,5 +23,18 @@ function activateHamburger() {
     }
   });
 }
+function activateCarousel() {
+  $(document).ready(function () {
+    $("#about-carousel").carousel();
+  });
 
+  $(document).ready(function () {
+    $("#getToKnowMe-carousel").carousel();
+  });
+
+  $(document).ready(function () {
+    $("#aspirations-carousel").carousel();
+  });
+}
 activateHamburger();
+activateCarousel();

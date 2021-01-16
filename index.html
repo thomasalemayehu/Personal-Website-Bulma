@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
 
+    <!-- Materialize For Carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
+    />
+
     <!-- Bulma CDN Link -->
     <link
       rel="stylesheet"
@@ -35,18 +41,14 @@
     />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap"
       rel="stylesheet"
     />
 
     <!-- Local CSS Link -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/query.css" />
-    <link
-      rel="stylesheet"
-      media="screen and (min-width:1023px)"
-      href="./assets/css/animations.css"
-    />
+    <link rel="stylesheet" href="./assets/css/animations.css" />
 
     <!-- Local JS Link -->
     <script defer src="./assets/js/app.js"></script>
@@ -54,14 +56,14 @@
   <body class="has-navbar-fixed-top">
     <!-- Navigation Section Start -->
     <nav
-      class="navbar py-3 has-text-black is-white is-fixed-top has-shadow"
+      class="navbar py-3 is-white is-fixed-top has-shadow"
       role="navigation"
       aria-label="main navigation"
     >
       <div class="container">
         <div class="navbar-brand is-uppercase">
           <a
-            class="navbar-item has-text-black is-size-5-touch is-size-5-desktop is-size-4-widescreen mr-3"
+            class="navbar-item has-text-black has-background-white is-size-5-touch is-size-5-desktop is-size-4-widescreen mr-3"
             href="index.html"
           >
             <span class="has-text-weight-semibold mr-2">Thomas</span>
@@ -80,38 +82,42 @@
 
         <div id="collapseNavbar" class="navbar-menu">
           <div class="navbar-end">
-            <a href="" class="navbar-item has-text-black mr-3">
+            <a href="" class="navbar-item mr-3 navbar-navigation-c">
               <i class="fas fa-home mr-2"></i>
               Home
             </a>
 
-            <a href="" class="navbar-item has-text-black mr-3">
+            <a href="" class="navbar-item mr-3 navbar-navigation-c">
               <i class="fas fa-user-secret mr-2"></i>
               About
             </a>
 
             <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link has-text-black mr-3">
+              <a class="navbar-link mr-3 navbar-navigation-c">
                 <i class="fas fa-briefcase mr-2"></i>
                 Portfolio
               </a>
 
               <div class="navbar-dropdown">
-                <a class="navbar-item has-text-black is-capitalized">
-                  <i class="fas fa-pen-nib mr-2"></i>
+                <a class="navbar-item has-text-black is-capitalized is-size-6">
+                  <i
+                    class="fas fa-pen-nib mr-2 is-size-7-touch is-size-6-desktop"
+                  ></i>
                   What I'm adept at
                 </a>
-                <a class="navbar-item has-text-black is-capitalized">
-                  <i class="fas fa-wrench mr-2"></i>
+                <a class="navbar-item has-text-black is-capitalized is-size-6">
+                  <i
+                    class="fas fa-wrench mr-2 is-size-7-touch is-size-6-desktop"
+                  ></i>
                   Some of my Works
                 </a>
               </div>
             </div>
-            <a href="" class="navbar-item has-text-black mr-3">
+            <a href="" class="navbar-item mr-3 navbar-navigation-c">
               <i class="fas fa-rss mr-2"></i>
               Blog
             </a>
-            <a href="" class="navbar-item has-text-black mr-6">
+            <a href="" class="navbar-item mr-6 navbar-navigation-c">
               <i class="fas fa-globe mr-2"></i>
               Contact
             </a>
@@ -119,17 +125,26 @@
             <div
               class="social-media-container is-flex is-align-items-center is-justify-content-space-between"
             >
-              <a href="" class="nav-item has-text-black">
+              <a
+                href=""
+                class="navbar-item has-text-black has-background-white navbar-social-icons-c"
+              >
                 <i
-                  class="fab fa-twitter is-size-6-mobile is-size-5-tablet is-size-6-desktop mr-5"
+                  class="fab fa-twitter is-size-6-mobile is-size-5-tablet is-size-6-desktop mr-2"
                 ></i>
               </a>
-              <a href="" class="nav-item has-text-black">
+              <a
+                href=""
+                class="navbar-item has-text-black has-background-white navbar-social-icons-c"
+              >
                 <i
-                  class="fab fa-instagram is-size-6-mobile is-size-5-tablet is-size-6-desktop mr-5"
+                  class="fab fa-instagram is-size-6-mobile is-size-5-tablet is-size-6-desktop mr-2"
                 ></i>
               </a>
-              <a href="" class="nav-item has-text-black">
+              <a
+                href=""
+                class="navbar-item has-text-black has-background-white navbar-social-icons-c"
+              >
                 <i
                   class="fab fa-youtube is-size-6-mobile is-size-5-tablet is-size-6-desktop"
                 ></i>
@@ -153,152 +168,177 @@
 
     <!-- About Section Start -->
     <section class="section">
-      <div class="container my-6">
-        <p
-          class="is-size-3 is-size-4-touch has-text-justified mt-6 hero-about-text"
-        >
-          I'm an aspring Developer , Graphics designer and UI/UX designer with
-          an eye for good food and a strong urge to help others be better.
-        </p>
+      <!-- Main Text -->
+      <div
+        class="container is-size-3 is-size-4-touch has-text-centered mt-6 hero-about-text-c"
+      >
+        I'm an aspring Developer , Graphics designer and UI/UX designer with an
+        eye for good food and a strong urge to help others be better.
       </div>
 
-      <div class="container-fluid mx-4 pt-6">
-        <div class="columns is-variable is-reverse-touch my-6 py-6">
-          <div class="column mr-4 has-text-justified pr-6">
+      <!-- About Me -->
+      <div class="container is-fluid px-0 mt-4 py-4 about-me-container-c">
+        <div class="columns is-tablet">
+          <!-- Descreption Section -->
+          <div class="column px-0">
             <p class="title is-3 has-text-centered">About Me</p>
             <p class="info-text has-text-weight-lighter">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
-              quae harum doloremque aliquam recusandae id obcaecati nostrum.
-              Ipsa, perferendis iste?
+              I was born in the year 2000 at Yekaiti Hospital Addis Ababa ,
+              Ethiopia. Well "few minutes before midnight" they say. My mother
+              tells me that I had good manners before I could tie my shoe laces.
             </p>
-            <p class="info-text has-text-weight-lighter mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-              exercitationem nulla sit laboriosam veritatis quisquam praesentium
-              adipisci dolore, minima incidunt aspernatur sint quo voluptatum
-              minus.
+            <p class="info-text has-text-weight-lighter mt-3">
+              I grew up to the misery of one brother , the oldest and a sister ,
+              the middle gold. But in recent years , We have about the norms of
+              Siblings. I'd say even more.
             </p>
-            <p class="info-text has-text-weight-lighter mt-4">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
-              quis repudiandae fugit qui, facilis alias dolor beatae optio eaque
-              error reiciendis voluptas quam eveniet ipsa laboriosam eligendi
-              eum cumque numquam et illum. Laborum, repellat ratione.
+            <p class="info-text has-text-weight-lighter mt-3">
+              At an early age of 4, I started off at Hill Side School , the same
+              school my previously sister started at. Then, I went on to join
+              Primary school , Middle school and High school at that very same
+              instutuion.By the time I was 18, joined the prestigeous AAiT.
+              Where I'm currently attending.
             </p>
           </div>
+
+          <!-- Image Section -->
           <div
             class="column is-flex is-align-items-center is-justify-content-center"
           >
-            <div class="columns">
-              <div class="column mr-6 px-0 py-0">
-                <figure class="image is-256x256 image-tilt-left">
-                  <img src="./assets/images" />
-                </figure>
-              </div>
-              <div class="column mr-6 px-0 py-0">
-                <figure class="image is-256x256">
-                  <img src="./assets/images" />
-                </figure>
-              </div>
-              <div class="column px-0 py-0">
-                <figure class="image is-256x256">
-                  <img src="./assets/images" />
-                </figure>
+            <div
+              class="column is-flex is-align-items-center is-justify-content-center"
+            >
+              <div class="carousel" id="about-carousel">
+                <img
+                  src="./assets/images/Chocolate cake.jpg"
+                  class="carousel-item"
+                />
+                <img src="./assets/images/cool.jpg" class="carousel-item" />
+                <img
+                  src="./assets/images/Hero Image.jpg"
+                  class="carousel-item"
+                />
+                <img
+                  src="./assets/images/Mac and Cheese Home.jpg"
+                  class="carousel-item"
+                />
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <div class="columns is-variable mt-6 is-reverse-touch my-6 py-6">
+      <!-- Get To Know Me -->
+      <div class="container is-fluid px-0 mt-4 py-4">
+        <div class="columns is-tablet">
+          <!-- Image Section -->
           <div
-            class="column is-flex is-align-items-center is-justify-content-center pr-6"
+            class="column is-flex is-align-items-center is-justify-content-center"
           >
-            <div class="columns">
-              <div class="column mr-6 px-0 py-0">
-                <figure class="image is-256x256 image-tilt-left">
-                  <img src="./assets/images/" />
-                </figure>
-              </div>
-              <div class="column mr-6 px-0 py-0">
-                <figure class="image is-256x256">
-                  <img src="./assets/images/" />
-                </figure>
-              </div>
-              <div class="column px-0 py-0">
-                <figure class="image is-256x256">
-                  <img src="./assets/images" />
-                </figure>
+            <div
+              class="column is-flex is-align-items-center is-justify-content-center"
+            >
+              <div class="carousel" id="getToKnowMe-carousel">
+                <img
+                  src="./assets/images/Chocolate cake.jpg"
+                  class="carousel-item"
+                />
+                <img src="./assets/images/cool.jpg" class="carousel-item" />
+                <img
+                  src="./assets/images/Hero Image.jpg"
+                  class="carousel-item"
+                />
+                <img
+                  src="./assets/images/Mac and Cheese Home.jpg"
+                  class="carousel-item"
+                />
               </div>
             </div>
           </div>
-
-          <div class="column mr-4 has-text-justified">
+          <!-- Descreption Section -->
+          <div class="column px-0">
             <p class="title is-3 has-text-centered">Get To Know Me</p>
             <p class="info-text has-text-weight-lighter">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Temporibus doloribus sit nulla facilis. Possimus voluptatem
-              eveniet minus nam modi quae delectus nostrum voluptate error
-              obcaecati!
+              I was born in the year 2000 at Yekaiti Hospital Addis Ababa ,
+              Ethiopia. Well "few minutes before midnight" they say. My mother
+              tells me that I had good manners before I could tie my shoe laces.
             </p>
-            <p class="info-text has-text-weight-lighter mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-              quo similique nobis sunt libero accusamus, laudantium temporibus
-              a, nam tempora ducimus distinctio ullam ea? Beatae nulla iure
-              accusamus obcaecati ad.
+            <p class="info-text has-text-weight-lighter mt-3">
+              I grew up to the misery of one brother , the oldest and a sister ,
+              the middle gold. But in recent years , We have about the norms of
+              Siblings. I'd say even more.
             </p>
-            <p class="info-text has-text-weight-lighter mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              debitis excepturi beatae laboriosam maiores officia impedit autem
-              quas. Voluptas odit cum, ipsa pariatur expedita, eligendi, odio
-              illo placeat dolore debitis et beatae dignissimos eius blanditiis.
+            <p class="info-text has-text-weight-lighter mt-3">
+              At an early age of 4, I started off at Hill Side School , the same
+              school my previously sister started at. Then, I went on to join
+              Primary school , Middle school and High school at that very same
+              instutuion.By the time I was 18, joined the prestigeous AAiT.
+              Where I'm currently attending.
             </p>
           </div>
         </div>
+      </div>
 
-        <div class="columns is-variable is-reverse-touch my-6 py-6">
-          <div class="column mr-4 has-text-justified pr-6">
+      <!-- Aspirations -->
+      <div class="container is-fluid px-0 mt-4 py-4 about-me-container-c">
+        <div class="columns is-tablet">
+          <!-- Descreption Section -->
+          <div class="column px-0">
             <p class="title is-3 has-text-centered">My Aspirations</p>
             <p class="info-text has-text-weight-lighter">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio,
-              exercitationem, magni quam temporibus, vel consequuntur facere
-              dolore libero voluptatem recusandae quia ipsa aliquid! Molestiae,
-              ullam?
+              I was born in the year 2000 at Yekaiti Hospital Addis Ababa ,
+              Ethiopia. Well "few minutes before midnight" they say. My mother
+              tells me that I had good manners before I could tie my shoe laces.
             </p>
-            <p class="info-text has-text-weight-lighter mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-              veniam quas quaerat quisquam. Eveniet impedit reiciendis
-              distinctio illum excepturi. Veniam modi quia harum. Voluptatum
-              velit, possimus eum iusto sint dolores?
+            <p class="info-text has-text-weight-lighter mt-3">
+              I grew up to the misery of one brother , the oldest and a sister ,
+              the middle gold. But in recent years , We have about the norms of
+              Siblings. I'd say even more.
             </p>
-            <p class="info-text has-text-weight-lighter mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
-              nulla consectetur ut quas id hic facilis quaerat reprehenderit
-              assumenda vitae alias nisi ab, sint eos ullam accusamus laudantium
-              placeat blanditiis!lorem5
+            <p class="info-text has-text-weight-lighter mt-3">
+              At an early age of 4, I started off at Hill Side School , the same
+              school my previously sister started at. Then, I went on to join
+              Primary school , Middle school and High school at that very same
+              instutuion.By the time I was 18, joined the prestigeous AAiT.
+              Where I'm currently attending.
             </p>
           </div>
+
+          <!-- Image Section -->
           <div
             class="column is-flex is-align-items-center is-justify-content-center"
           >
-            <div class="columns">
-              <div class="column mr-6 px-0 py-0">
-                <figure class="image is-256x256 image-tilt-left">
-                  <img src="./assets/images/" />
-                </figure>
-              </div>
-              <div class="column mr-6 px-0 py-0">
-                <figure class="image is-256x256">
-                  <img src="./assets/images/" />
-                </figure>
-              </div>
-              <div class="column px-0 py-0">
-                <figure class="image is-256x256">
-                  <img src="./assets/images/" />
-                </figure>
+            <div
+              class="column is-flex is-align-items-center is-justify-content-center"
+            >
+              <div class="carousel" id="aspirations-carousel">
+                <img
+                  src="./assets/images/Chocolate cake.jpg"
+                  class="carousel-item"
+                />
+                <img src="./assets/images/cool.jpg" class="carousel-item" />
+                <img
+                  src="./assets/images/Hero Image.jpg"
+                  class="carousel-item"
+                />
+                <img
+                  src="./assets/images/Mac and Cheese Home.jpg"
+                  class="carousel-item"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <!-- About Section End -->
+
+    <!-- Materialize Script -->
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.1.1.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   </body>
 </html>

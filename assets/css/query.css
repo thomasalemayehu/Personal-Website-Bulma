@@ -1,0 +1,43 @@
+/* Mobile Devices */
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  /* Navigation Section */
+  .social-media-container {
+    width: 40%;
+  }
+  /* Hero Section */
+  .hero {
+    height: 93vh;
+  }
+  /* About Section */
+  .section {
+    padding: 0;
+  }
+}
+
+/* Tablet Devices */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .social-media-container {
+    width: 50%;
+  }
+}
+
+/* Desktop Devices */
+@media screen and (min-width: 1024px) and (max-width: 1215px) {
+  .navbar-brand {
+    letter-spacing: 2.2px;
+  }
+}
+
+/* Widescreen Devices*/
+@media screen and (min-width: 1215px) and (max-width: 1407px) {
+  .navbar-brand {
+    letter-spacing: 3px;
+  }
+}
+
+/* Full HD Devices */
+@media screen and (min-width: 1407px) {
+  .navbar-item {
+    font-size: 1.2rem;
+  }
+}

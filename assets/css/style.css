@@ -1,0 +1,48 @@
+/* Temp */
+
+/* Temp */
+
+/* Navigation Section */
+.navbar-brand {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.24rem;
+}
+.nav-item,
+.navbar-item,
+.navbar-brand {
+  text-decoration: none;
+  color: black;
+}
+.social-media-container {
+  margin: auto;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  letter-spacing: 5px;
+  font-family: "Potta One", cursive;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/Hero\ Image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0%, 100% 85%, 49% 100%, 0 85%);
+}
+
+.hero-about-text {
+  font-family: "Quicksand", sans-serif;
+  line-height: 160%;
+  word-spacing: 0.5px;
+  letter-spacing: 1px;
+}
+
+/* About Me Section */
+.info-text {
+  font-family: "Quicksand", sans-serif;
+  line-height: 160%;
+  font-size: 1.125rem;
+}
+.columns {
+  border: 1px solid red;
+}

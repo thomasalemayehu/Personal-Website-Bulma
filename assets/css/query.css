@@ -27,13 +27,31 @@
     font-size: 16px;
   }
 
-  /* Skills Section */
-  .skill-card-c {
-    width: 75%;
-    margin: auto;
+  /* SkillS Page */
+  .progress-bar-html-c,
+  .progress-bar-css-c,
+  .progress-bar-py-c {
+    position: relative;
+    width: 80%;
+    height: 20px;
+    background-color: red;
   }
-  .skills-icon-c {
-    width: 20%;
+  .progress-bar-js-c,
+  .progress-bar-xd-c {
+    position: relative;
+    width: 70%;
+    height: 20px;
+    background-color: blue;
+  }
+  .progress-bar-html-value-c,
+  .progress-bar-css-value-c,
+  .progress-bar-js-value-c,
+  .progress-bar-py-value-c,
+  .progress-bar-xd-value-c {
+    left: 89%;
+    position: absolute;
+    font-size: 13.6px;
+    padding-right: 2px;
   }
 }
 
@@ -47,9 +65,16 @@
     width: 313.5px;
     height: 266px;
   }
-  .skill-card-c {
-    width: 75%;
-    margin: auto;
+
+  /* SkillS Page */
+
+  .progress-bar-html-value-c,
+  .progress-bar-css-value-c,
+  .progress-bar-js-value-c,
+  .progress-bar-py-value-c,
+  .progress-bar-xd-value-c {
+    left: 93%;
+    font-size: 14px;
   }
 }
 /* Tablet Devices */
@@ -75,6 +100,15 @@
     line-height: 150%;
     font-size: 16px;
   }
+  /* Skills Page */
+  .progress-bar-html-value-c,
+  .progress-bar-css-value-c,
+  .progress-bar-js-value-c,
+  .progress-bar-py-value-c,
+  .progress-bar-xd-value-c {
+    left: 88%;
+    font-size: 13px;
+  }
 }
 
 /* Desktop Devices */
@@ -96,6 +130,15 @@
     font-size: 18px;
     padding-left: 2rem;
   }
+  /* Skills Page */
+  .progress-bar-html-value-c,
+  .progress-bar-css-value-c,
+  .progress-bar-js-value-c,
+  .progress-bar-py-value-c,
+  .progress-bar-xd-value-c {
+    left: 90%;
+    font-size: 14px;
+  }
 }
 
 /* Widescreen Devices*/
@@ -116,6 +159,24 @@
     line-height: 160%;
     font-size: 19px;
     padding-left: 2.2rem;
+  }
+  .progress-bar-html-c,
+  .progress-bar-css-c,
+  .progress-bar-py-c {
+    position: relative;
+  }
+  .progress-bar-html-value-c,
+  .progress-bar-css-value-c,
+  .progress-bar-js-value-c,
+  .progress-bar-py-value-c,
+  .progress-bar-xd-value-c {
+    left: 93%;
+    font-size: 14px;
+    padding-right: 5px;
+  }
+  .progress-bar-js-c,
+  .progress-bar-xd-c {
+    height: 20px;
   }
 }
 

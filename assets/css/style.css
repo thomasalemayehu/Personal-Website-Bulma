@@ -49,3 +49,29 @@
 }
 
 /* Skills Section */
+.progress-bar-html-c,
+.progress-bar-css-c,
+.progress-bar-py-c {
+  position: relative;
+  width: 80%;
+  height: 20px;
+  background-color: red;
+}
+.progress-bar-html-value-c,
+.progress-bar-css-value-c,
+.progress-bar-js-value-c,
+.progress-bar-py-value-c,
+.progress-bar-xd-value-c {
+  left: 93%;
+  position: absolute;
+  font-size: 14px;
+  padding-right: 5px;
+}
+
+.progress-bar-js-c,
+.progress-bar-xd-c {
+  position: relative;
+  width: 70%;
+  height: 20px;
+  background-color: blue;
+}

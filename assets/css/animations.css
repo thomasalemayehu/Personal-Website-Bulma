@@ -15,3 +15,11 @@
 .navbar-social-icons-c:hover {
   opacity: 0.6;
 }
+
+.work__image__containers:hover {
+  flex: 5;
+}
+
+.work__image__containers:hover > div {
+  visibility: visible;
+}

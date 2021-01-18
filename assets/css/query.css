@@ -53,9 +53,35 @@
     font-size: 13.6px;
     padding-right: 2px;
   }
+
+  .project-description-c {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 22px;
+    font-weight: bold;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 449px) {
+  .my-works-container-c {
+    flex-flow: column wrap;
+  }
+  .work__image__containers {
+    flex: 2;
+  }
+  .work__image__containers .work__caption {
+    padding: 0.5rem;
+    font-size: 10.5px;
+  }
 }
 
-@media screen and (min-width: 500px) and (max-width: 768px) {
+@media screen and (min-width: 450px) and (max-width: 619px) {
+  .work__image__containers .work__caption {
+    padding: 0.5rem;
+    font-size: 11.5px;
+    line-height: 120%;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 768px) {
   .carousel {
     height: 285px;
     width: 427.5px;
@@ -75,6 +101,13 @@
   .progress-bar-xd-value-c {
     left: 93%;
     font-size: 14px;
+  }
+
+  /* Works Page */
+  .work__image__containers .work__caption {
+    padding: 0.6rem;
+    font-size: 12.5px;
+    line-height: 120%;
   }
 }
 /* Tablet Devices */
@@ -109,6 +142,12 @@
     left: 88%;
     font-size: 13px;
   }
+  .project-description-c {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 28px;
+    font-weight: bold;
+  }
 }
 
 /* Desktop Devices */
@@ -138,6 +177,12 @@
   .progress-bar-xd-value-c {
     left: 90%;
     font-size: 14px;
+  }
+  .project-description-c {
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+    font-size: 32px;
+    font-weight: bold;
   }
 }
 
@@ -178,6 +223,12 @@
   .progress-bar-xd-c {
     height: 20px;
   }
+  .project-description-c {
+    padding-right: 2.1rem;
+    padding-left: 2.1rem;
+    font-size: 34px;
+    font-weight: normal;
+  }
 }
 
 /* Full HD Devices */
@@ -199,5 +250,20 @@
     line-height: 160%;
     font-size: 19px;
     padding-left: 2.2rem;
+  }
+
+  /* Skills Page */
+  .progress-bar-html-value-c,
+  .progress-bar-css-value-c,
+  .progress-bar-js-value-c,
+  .progress-bar-py-value-c,
+  .progress-bar-xd-value-c {
+    font-size: 15.5px;
+  }
+  .project-description-c {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    font-size: 36px;
+    font-weight: normal;
   }
 }

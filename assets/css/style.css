@@ -75,3 +75,56 @@
   height: 20px;
   background-color: blue;
 }
+
+/* My Works */
+.my-works-container-c {
+  width: 100%;
+  height: 85vh;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.work__image__containers {
+  flex: 1;
+  overflow: hidden;
+  transition: 2s;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.work__flying-fish {
+  background-image: url("../images/work/Flying\ Fish.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.work__radiating-heart {
+  background-image: url("../images/work/Radiating\ Heart.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.work__true-chains {
+  background-image: url("../images/work/Chained\ To\ The\ Moon.jpg");
+  background-size: cover;
+}
+
+.work__lost-in {
+  background-image: url("../images/work/Lost\ In\ Your\ Thought.jpg");
+  background-size: cover;
+}
+
+.work__image__containers .work__caption {
+  background-color: rgba(34, 34, 49, 0.45);
+  padding: 1.2rem;
+  color: rgba(255, 255, 255, 0.781);
+  transition: 0.5s;
+  visibility: hidden;
+  line-height: 120%;
+}
+
+.work__image__containers .work__caption h2 {
+  margin-bottom: 0.8rem;
+}

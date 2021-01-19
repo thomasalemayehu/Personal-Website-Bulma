@@ -57,7 +57,7 @@
   .project-description-c {
     padding-right: 1rem;
     padding-left: 1rem;
-    font-size: 22px;
+    font-size: 21px;
     font-weight: bold;
   }
 }
@@ -143,9 +143,9 @@
     font-size: 13px;
   }
   .project-description-c {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    font-size: 28px;
+    padding-right: 1.4rem;
+    padding-left: 1.4rem;
+    font-size: 27px;
     font-weight: bold;
   }
 }
@@ -181,8 +181,8 @@
   .project-description-c {
     padding-right: 1.8rem;
     padding-left: 1.8rem;
-    font-size: 32px;
-    font-weight: bold;
+    font-size: 31px;
+    font-weight: normal;
   }
 }
 
@@ -226,7 +226,7 @@
   .project-description-c {
     padding-right: 2.1rem;
     padding-left: 2.1rem;
-    font-size: 34px;
+    font-size: 33px;
     font-weight: normal;
   }
 }

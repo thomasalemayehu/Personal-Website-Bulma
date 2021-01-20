@@ -1,9 +1,6 @@
-/* Temp */
-
-/* Temp */
-/* body {
-  background-color: rgb(226, 225, 225);
-} */
+html {
+  scroll-behavior: smooth;
+}
 
 /* Navigation Section */
 .navbar-brand {
@@ -161,10 +158,10 @@
   margin: auto;
 }
 
-.contact-form-container-c {
+/* .contact-form-container-c {
   margin-left: 140px;
   margin-right: 140px;
-}
+} */
 .contact-form-c {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -191,19 +188,48 @@
 
 /*  */
 .footer {
-  z-index: 4;
+  z-index: 1;
   position: relative;
+  width: 100%;
+  padding: 0;
+  background-color: #1b252f;
 }
 
-.subscribe-container-c {
+/* .subscribe-container-c {
+  padding-top: 0.3rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   z-index: 5;
   position: absolute;
   top: -45%;
-  left: 15%;
-  height: 20vh;
-  width: 70%;
-  background: url("../images/Subscribe\ Section.jpg");
+  left: 10%;
+  height: 22vh;
+  width: 80%;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.subscribe-input-container-c {
+  width: 90%;
+}
+.subscribe-button-c {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.inner-subscribe-container-c {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+} */
+.subscribe-container-c {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/Subscribe\ Section.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+input:placeholder-shown {
+  color: white;
 }

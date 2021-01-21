@@ -18,6 +18,9 @@ function activateHamburger() {
           // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
           el.classList.toggle("is-active");
           $target.classList.toggle("is-active");
+          // Toggle the is-side-navigation custom class to make navigation from side
+
+          // $target.classList.toggle("is-side-navigation");
         });
       });
     }
@@ -25,15 +28,21 @@ function activateHamburger() {
 }
 function activateCarousel() {
   $(document).ready(function () {
-    $("#about-carousel").carousel();
+    $("#about-carousel").carousel({
+      indicators: true,
+    });
   });
 
   $(document).ready(function () {
-    $("#getToKnowMe-carousel").carousel();
+    $("#getToKnowMe-carousel").carousel({
+      indicators: true,
+    });
   });
 
   $(document).ready(function () {
-    $("#aspirations-carousel").carousel();
+    $("#aspirations-carousel").carousel({
+      indicators: true,
+    });
   });
 }
 activateHamburger();

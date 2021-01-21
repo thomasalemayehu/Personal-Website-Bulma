@@ -155,12 +155,18 @@ html {
 /* Blog */
 #blog-section {
   margin: auto;
+  font-family: "Quicksand", sans-serif;
+  line-height: 160%;
 }
 .date {
   font-style: italic;
 }
 
 /*Contact  */
+.contact-page-section-c {
+  font-family: "Quicksand", sans-serif;
+  line-height: 160%;
+}
 .contact-me-description-c {
   margin: auto;
 }
@@ -171,6 +177,7 @@ html {
 
 .contact-info-container-c {
   height: 100%;
+  background-color: white;
 }
 /* Footer */
 .footer {
@@ -189,5 +196,9 @@ html {
   background-position: center;
 }
 ::placeholder {
+  color: white !important;
+}
+.footer-icons-c {
+  text-decoration: none;
   color: white !important;
 }

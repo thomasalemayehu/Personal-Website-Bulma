@@ -4,6 +4,7 @@
   .social-media-container {
     width: 40%;
   }
+
   /* Hero Section */
   .hero {
     height: 93vh;
@@ -34,14 +35,12 @@
     position: relative;
     width: 80%;
     height: 20px;
-    background-color: red;
   }
   .progress-bar-js-c,
   .progress-bar-xd-c {
     position: relative;
     width: 70%;
     height: 20px;
-    background-color: blue;
   }
   .progress-bar-html-value-c,
   .progress-bar-css-value-c,
@@ -110,6 +109,11 @@
     padding: 0.5rem;
     font-size: 10.5px;
   }
+  /* .is-side-navigation {
+    width: 70%;
+    margin-left: 40%;
+    height: 100vh;
+  } */
 }
 
 @media screen and (min-width: 450px) and (max-width: 619px) {
@@ -118,6 +122,11 @@
     font-size: 11.5px;
     line-height: 120%;
   }
+  /* .is-side-navigation {
+    width: 70%;
+    margin-left: 40%;
+    height: 100vh;
+  } */
 }
 @media screen and (min-width: 450px) and (max-width: 768px) {
   .carousel {
@@ -196,6 +205,8 @@
   }
   .contact-info-container-c {
     padding: 0;
+    width: 60%;
+    margin: auto;
   }
 
   /* Footer */
@@ -206,6 +217,8 @@
     height: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
   .subscribe-input-container-c {
     display: flex;
@@ -217,6 +230,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    padding-left: 25px;
   }
 
   .copyright-container-c {

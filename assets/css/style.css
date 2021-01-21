@@ -17,6 +17,17 @@ html {
   -ms-transition: all 1.2s;
   -o-transition: all 1.2s;
 }
+.fa-times {
+  display: flex;
+  align-items: center;
+}
+.navbar-navigation-c {
+  display: flex;
+  align-items: center;
+}
+.close-icon-navigation-c {
+  color: white;
+}
 .social-media-container {
   margin: auto;
 }
@@ -62,18 +73,7 @@ html {
   position: relative;
   width: 80%;
   height: 20px;
-  /* background-color: red; */
   background: linear-gradient(to right, #5c258d, #4389a2);
-  /* background-color: #4158d0;
-  background-image: linear-gradient(
-    43deg,
-    #4158d0 0%,
-    #c850c0 46%,
-    #ffcc70 100%
-  ); */
-
-  /* background-color: #0093e9;
-  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%); */
 }
 .progress-bar-html-value-c,
 .progress-bar-css-value-c,
@@ -91,7 +91,7 @@ html {
   position: relative;
   width: 70%;
   height: 20px;
-  background-color: blue;
+  background: linear-gradient(to right, #5c258d, #4389a2);
 }
 
 /* My Works */
@@ -152,41 +152,27 @@ html {
   word-spacing: 0.5px;
   letter-spacing: 1px;
 }
+/* Blog */
+#blog-section {
+  margin: auto;
+}
+.date {
+  font-style: italic;
+}
 
-/*  */
+/*Contact  */
 .contact-me-description-c {
   margin: auto;
 }
 
-/* .contact-form-container-c {
-  margin-left: 140px;
-  margin-right: 140px;
-} */
 .contact-form-c {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.fa-check {
-  padding-left: 5px;
-  padding-right: 5px;
-  background-color: red;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-}
 .contact-info-container-c {
   height: 100%;
 }
-/* .fa-phone,
-.fa-map-marker-alt,
-.fa-at,
-.fa-clipboard-list {
-  color: #00d1b2;
-} */
-
-/*  */
+/* Footer */
 .footer {
   z-index: 1;
   position: relative;
@@ -195,34 +181,6 @@ html {
   background-color: #1b252f;
 }
 
-/* .subscribe-container-c {
-  padding-top: 0.3rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  z-index: 5;
-  position: absolute;
-  top: -45%;
-  left: 10%;
-  height: 22vh;
-  width: 80%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.subscribe-input-container-c {
-  width: 90%;
-}
-.subscribe-button-c {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.inner-subscribe-container-c {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-} */
 .subscribe-container-c {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("../images/Subscribe\ Section.jpg");
@@ -230,6 +188,6 @@ html {
   background-size: cover;
   background-position: center;
 }
-input:placeholder-shown {
-  color: white;
+::placeholder {
+  color: white !important;
 }

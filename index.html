@@ -82,30 +82,52 @@
 
         <div id="collapseNavbar" class="navbar-menu">
           <div class="navbar-end">
-            <a href="" class="navbar-item mr-3 navbar-navigation-c">
+            <a
+              href="#hero-section"
+              class="navbar-item mr-3 navbar-navigation-c"
+            >
               <i class="fas fa-home mr-2"></i>
-              Home
+              <p>Home</p>
+
+              <i
+                class="fas fa-times is-size-7 ml-2 close-icon-navigation-c"
+              ></i>
             </a>
 
-            <a href="" class="navbar-item mr-3 navbar-navigation-c">
+            <a
+              href="#about-section"
+              class="navbar-item mr-3 navbar-navigation-c"
+            >
               <i class="fas fa-user-secret mr-2"></i>
               About
+              <i
+                class="fas fa-times is-size-7 ml-2 close-icon-navigation-c"
+              ></i>
             </a>
 
             <div class="navbar-item has-dropdown is-hoverable">
               <a class="navbar-link mr-3 navbar-navigation-c">
                 <i class="fas fa-briefcase mr-2"></i>
                 Portfolio
+                <i
+                  class="fas fa-times is-size-7 ml-2 close-icon-navigation-c"
+                ></i>
               </a>
 
               <div class="navbar-dropdown">
-                <a class="navbar-item has-text-black is-capitalized is-size-6">
+                <a
+                  class="navbar-item has-text-black is-capitalized is-size-6"
+                  href="#skills-section"
+                >
                   <i
                     class="fas fa-pen-nib mr-2 is-size-7-touch is-size-5-desktop"
                   ></i>
                   What I'm adept at
                 </a>
-                <a class="navbar-item has-text-black is-capitalized is-size-6">
+                <a
+                  class="navbar-item has-text-black is-capitalized is-size-6"
+                  href="#myworks-section"
+                >
                   <i
                     class="fas fa-wrench mr-2 is-size-7-touch is-size-5-desktop"
                   ></i>
@@ -113,13 +135,25 @@
                 </a>
               </div>
             </div>
-            <a href="" class="navbar-item mr-3 navbar-navigation-c">
+            <a
+              href="#blog-section"
+              class="navbar-item mr-3 navbar-navigation-c"
+            >
               <i class="fas fa-rss mr-2"></i>
               Blog
+              <i
+                class="fas fa-times is-size-7 ml-2 close-icon-navigation-c"
+              ></i>
             </a>
-            <a href="" class="navbar-item mr-5 navbar-navigation-c">
+            <a
+              href="#contact-section"
+              class="navbar-item mr-5 navbar-navigation-c"
+            >
               <i class="fas fa-globe mr-2"></i>
               Contact
+              <i
+                class="fas fa-times is-size-7 ml-2 close-icon-navigation-c"
+              ></i>
             </a>
 
             <div
@@ -157,7 +191,7 @@
     <!-- Navigation Section End -->
 
     <!-- Hero Section Start -->
-    <section class="hero">
+    <section class="hero" id="hero-section">
       <div
         class="hero-body is-flex is-align-items-center is-justify-content-center is-uppercase has-text-weight-semibold has-text-white is-size-3-mobile is-size-2-tablet is-size-1-desktop has-text-centered"
       >
@@ -167,7 +201,7 @@
     <!-- Hero Section End -->
 
     <!-- About Section Start -->
-    <section class="section">
+    <section class="section" id="about-section">
       <!-- Main Text -->
       <div
         class="container is-size-3-desktop is-size-2-widescreen is-size-4-touch has-text-centered my-6 pb-6 hero-about-text-c"
@@ -180,7 +214,7 @@
       <div class="container is-fluid px-0 mt-5 py-5 about-me-container-c">
         <div class="columns is-desktop is-reversed-touch-c">
           <!-- Image Section -->
-          <div
+          <!-- <div
             class="column is-flex is-align-items-center is-justify-content-center"
           >
             <div
@@ -202,7 +236,7 @@
                 />
               </div>
             </div>
-          </div>
+          </div> -->
 
           <!-- Description Section -->
           <div class="column px-0">
@@ -254,7 +288,7 @@
           </div>
 
           <!-- Image Section -->
-          <div
+          <!-- <div
             class="column is-flex is-align-items-center is-justify-content-center"
           >
             <div
@@ -276,7 +310,7 @@
                 />
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
 
@@ -284,7 +318,7 @@
       <div class="container is-fluid px-0 mt-5 py-5 about-me-container-c">
         <div class="columns is-desktop is-reversed-touch-c">
           <!-- Image Section -->
-          <div
+          <!-- <div
             class="column is-flex is-align-items-center is-justify-content-center"
           >
             <div
@@ -306,7 +340,7 @@
                 />
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- Description Section -->
           <div class="column px-0">
             <p class="title is-3 has-text-centered">My Aspirations</p>
@@ -335,8 +369,10 @@
     <!-- About Section End -->
 
     <!-- My Portfolio Section Start-->
-    <section class="section mt-6 pt-4">
-      <div class="title has-text-centered mb-4">My Skills</div>
+    <section class="section mt-6 pt-4" id="portfolio-section">
+      <div class="title has-text-centered mb-4" id="skills-section">
+        My Skills
+      </div>
 
       <div class="columns">
         <!-- HTML -->
@@ -561,7 +597,7 @@
     <!-- My Portfolio Section End-->
 
     <!-- My Works Section Start -->
-    <section class="section mt-6 pt-4 px-0">
+    <section class="section mt-6 pt-4 px-0" id="myworks-section">
       <div class="title is-size-3 has-text-centered">My Works</div>
       <div class="my-works-container-c mt-6">
         <div class="work__flying-fish work__image__containers">
@@ -631,11 +667,63 @@
     <!-- My Works Section End -->
 
     <!-- Blog Section Start -->
+    <section class="container is-fluid" id="blog-section">
+      <div class="tile is-ancestor">
+        <div class="tile is-12 is-vertical is-parent">
+          <div class="tile box is-child notification is-primary">
+            <p class="title">One</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+              repellendus beatae odit sequi cumque recusandae mollitia
+              exercitationem ut laborum reprehenderit consectetur, earum
+              architecto iusto eius similique quis dolor sit veniam?Lorem ipsum
+              dolor sit amet consectetur adipisicing elit. Optio cupiditate, a
+              mollitia, ullam odit inventore suscipit numquam sequi repellat
+              blanditiis voluptatum. Possimus dolore minus dolorem hic!
+              Perferendis unde illum numquam.
+            </p>
+            <p class="date has-text-right mt-4">Jan 20, 2000</p>
+          </div>
+
+          <div class="tile box is-child notification is-warning">
+            <p class="title">Two</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+              repellendus beatae odit sequi cumque recusandae mollitia
+              exercitationem ut laborum reprehenderit consectetur, earum
+              architecto iusto eius similique quis dolor sit veniam? Lorem ipsum
+              dolor sit amet consectetur, adipisicing elit. Voluptas aut
+              voluptatem ducimus fugiat. Dicta earum, dignissimos, modi expedita
+              repellendus similique nulla doloremque officiis quam ducimus
+              molestias, eos fugit tempora provident! Lorem ipsum dolor sit amet
+            </p>
+            <p class="date has-text-right mt-4">Jan 20, 2000</p>
+          </div>
+
+          <div class="tile box is-child notification is-danger">
+            <p class="title">One</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore,
+              repellendus beatae odit sequi cumque recusandae mollitia
+              exercitationem ut laborum reprehenderit consectetur, earum
+              architecto iusto eius similique quis dolor sit veniam?Lorem ipsum
+              dolor, sit amet consectetur adipisicing elit. Hic, illo accusamus
+              perferendis quos quam dolorem, expedita cumque eaque commodi at
+              libero nobis placeat porro cupiditate possimus ducimus, provident
+            </p>
+            <p class="date has-text-right mt-4">Jan 20, 2000</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Blog Section End -->
 
     <!-- Contact Page Start -->
-    <section class="section mt-6 mb-6 contact-page-section-c">
+    <section
+      class="section mt-6 mb-6 contact-page-section-c"
+      id="contact-section"
+    >
       <div class="title has-text-centered mb-5">Contact Me</div>
       <div class="is-size-5 has-text-centered mb-3">
         I would be happy to answer any of your questions or collaborate for

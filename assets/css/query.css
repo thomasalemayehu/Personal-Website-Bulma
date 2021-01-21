@@ -79,6 +79,8 @@
     height: 100%;
     padding-top: 15px;
     padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
   }
   .subscribe-input-container-c {
     display: flex;
@@ -97,6 +99,11 @@
     flex-direction: row;
     align-items: center;
   }
+  .is-side-navigation {
+    width: 60%;
+    margin-left: 50%;
+    height: 100vh;
+  }
 }
 @media screen and (min-width: 300px) and (max-width: 449px) {
   .my-works-container-c {
@@ -109,11 +116,6 @@
     padding: 0.5rem;
     font-size: 10.5px;
   }
-  /* .is-side-navigation {
-    width: 70%;
-    margin-left: 40%;
-    height: 100vh;
-  } */
 }
 
 @media screen and (min-width: 450px) and (max-width: 619px) {
@@ -122,11 +124,6 @@
     font-size: 11.5px;
     line-height: 120%;
   }
-  /* .is-side-navigation {
-    width: 70%;
-    margin-left: 40%;
-    height: 100vh;
-  } */
 }
 @media screen and (min-width: 450px) and (max-width: 768px) {
   .carousel {
@@ -243,6 +240,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+  }
+
+  .is-side-navigation {
+    width: 45%;
+    margin-left: 60%;
+    height: 100vh;
   }
 }
 

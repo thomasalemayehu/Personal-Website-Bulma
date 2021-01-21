@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+
+    <!-- Materialize For Carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
+    />
+
+    <!-- Bulma CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+
+    <!-- Fontawesome Link -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Potta+One&family=Quicksand:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Local CSS Link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/query.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width:1215px)"
+      href="./assets/css/animations.css"
+    />
+
+    <!-- Local JS Link -->
+    <script defer src="./assets/js/app.js"></script>
+  </head>
+  <body class="has-navbar-fixed-top">
+    <!-- Navigation Section Start -->
+    <nav
+      class="navbar py-1 is-white is-fixed-top has-shadow"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="container is-fluid">
+        <div class="navbar-brand is-uppercase">
+          <a
+            class="navbar-item has-text-black has-background-white is-size-7-mobile is-size-5-tablet is-size-6-desktop is-size-4-widescreen mr-3"
+            href="index.html"
+          >
+            <span class="has-text-weight-semibold mr-2">Thomas</span>
+            Alemayehu
+          </a>
+
+          <a
+            class="navbar-burger has-background-white px-2"
+            data-target="collapseNavbar"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="collapseNavbar" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="./index.html" class="navbar-item mr-2 navbar-navigation-c">
+              <i class="fas fa-home mr-2"></i>
+              <p>Home</p>
+
+              <i
+                class="fas fa-times is-size-7 ml-2 close-icon-navigation-c"
+              ></i>
+            </a>
+
+            <a href="./index.html" class="navbar-item mr-2 navbar-navigation-c">
+              <i class="fas fa-user-secret mr-2"></i>
+              About
+              <i
+                class="fas fa-times is-size-7 ml-2 close-icon-navigation-c"
+              ></i>
+            </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link mr-2 navbar-navigation-c">
+                <i class="fas fa-briefcase mr-2"></i>
+                Portfolio
+                <i
+                  class="fas fa-times is-size-7 ml-2 close-icon-navigation-c"
+                ></i>
+              </a>
+
+              <div class="navbar-dropdown">
+                <a
+                  class="navbar-item is-capitalized is-size-6"
+                  href="./index.html"
+                >
+                  <i
+                    class="fas fa-pen-nib mr-2 is-size-7-touch is-size-5-desktop"
+                  ></i>
+                  What I'm adept at
+                </a>
+                <a
+                  class="navbar-item has-text-black is-capitalized is-size-6"
+                  href="./index.html"
+                >
+                  <i
+                    class="fas fa-wrench mr-2 is-size-7-touch is-size-5-desktop"
+                  ></i>
+                  Some of my Works
+                </a>
+              </div>
+            </div>
+            <a href="./index.html" class="navbar-item mr-2 navbar-navigation-c">
+              <i class="fas fa-rss mr-2"></i>
+              Blog
+              <i
+                class="fas fa-times is-size-7 ml-2 close-icon-navigation-c"
+              ></i>
+            </a>
+            <a
+              href="#contact-section"
+              class="navbar-item mr-5 navbar-navigation-c"
+            >
+              <i class="fas fa-globe mr-2"></i>
+              Contact
+              <i
+                class="fas fa-times is-size-7 ml-2 close-icon-navigation-c"
+              ></i>
+            </a>
+
+            <div
+              class="social-media-container is-flex is-align-items-center is-justify-content-space-between"
+            >
+              <a
+                href="https://twitter.com/home"
+                target="_blank"
+                class="navbar-item has-text-black has-background-white navbar-social-icons-c"
+              >
+                <i
+                  class="fab fa-twitter is-size-6-mobile is-size-5-tablet is-size-6-desktop mr-2"
+                ></i>
+              </a>
+              <a
+                href="https://www.instagram.com/thomas.alemayehu_off/"
+                class="navbar-item has-text-black has-background-white navbar-social-icons-c"
+                target="_blank"
+              >
+                <i
+                  class="fab fa-instagram is-size-6-mobile is-size-5-tablet is-size-6-desktop mr-2"
+                ></i>
+              </a>
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                class="navbar-item has-text-black has-background-white navbar-social-icons-c"
+              >
+                <i
+                  class="fab fa-youtube is-size-6-mobile is-size-5-tablet is-size-6-desktop"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigation Section End -->
+
+    <!-- Blog Section Start -->
+    <div class="columns my-6 px-6 blog-content-c">
+      <div class="column is-8 mr-2 mb-3">
+        <p class="title has-text-centered">Music and the Human Brain</p>
+        <p class="mb-5 is-size-6-mobile is-size-5-desktop">
+          Music is a fundamental attribute of the human species. Virtually all
+          cultures, from the most primitive to the most advanced, make music.
+          It's been true through history, and it's true throughout an
+          individual's lifespan. In tune or not, we humans sing and hum; in time
+          or not, we clap and sway; in step or not, we dance and bounce.
+        </p>
+
+        <p class="mb-5 is-size-6-mobile is-size-5-desktop">
+          The human brain and nervous system are hard-wired to distinguish music
+          from noise and to respond to rhythm and repetition, tones and tunes.
+          Is this a biologic accident, or does it serve a purpose? It's not
+          possible to say. Still, a varied group of studies suggests that music
+          may enhance human health and performance.
+        </p>
+        <p class="mb-5 is-size-6-mobile is-size-5-desktop">
+          Experts are trying to understand how our brains can hear and play
+          music. A stereo system puts out vibrations that travel through the air
+          and somehow get inside the ear canal. These vibrations tickle the
+          eardrum and are transmitted into an electrical signal that travels
+          through the auditory nerve to the brain stem, where it is reassembled
+          into something we perceive as music.
+        </p>
+
+        <p class="mb-5 is-size-6-mobile is-size-5-desktop">
+          Johns Hopkins researchers have had dozens of jazz performers and
+          rappers improvise music while lying down inside an fMRI (functional
+          magnetic resonance imaging) machine to watch and see which areas of
+          their brains light up.
+        </p>
+
+        <p class="mb-5 is-size-6-mobile is-size-5-desktop">
+          “Music is structural, mathematical and architectural. It’s based on
+          relationships between one note and the next. You may not be aware of
+          it, but your brain has to do a lot of computing to make sense of it,”
+          notes one otolaryngologist.
+        </p>
+
+        <p class="mb-5 is-size-6-mobile is-size-5-desktop">
+          The power of music isn’t limited to interesting research. Try these
+          methods of bringing more music—and brain benefits—into your life.
+        </p>
+
+        <p class="title is-4">Jump-start your creativity</p>
+        <p class="mb-5 is-size-6-mobile is-size-5-desktop">
+          Listen to what your kids or grandkids listen to, experts suggest.
+          Often we continue to listen to the same songs and genre of music that
+          we did during our teens and 20s, and we generally avoid hearing
+          anything that’s not from that era. New music challenges the brain in a
+          way that old music doesn’t. It might not feel pleasurable at first,
+          but that unfamiliarity forces the brain to struggle to understand the
+          new sound.
+        </p>
+
+        <p class="title is-4">Recall a memory from long ago</p>
+        <p class="mb-5 is-size-6-mobile is-size-5-desktop">
+          Reach for familiar music, especially if it stems from the same time
+          period that you are trying to recall. Listening to the Beatles might
+          bring you back to the first moment you laid eyes on your spouse, for
+          instance.
+        </p>
+
+        <p class="title is-4">Listen to your body</p>
+        <p class="mb-5 is-size-6-mobile is-size-5-desktop">
+          Pay attention to how you react to different forms of music, and pick
+          the kind that works for you. What helps one person concentrate might
+          be distracting to someone else, and what helps one person unwind might
+          make another person jumpy.
+        </p>
+
+        <p class="date has-text-right mt-6">January 25 , 2020</p>
+      </div>
+
+      <div class="column">
+        <div class="box">
+          <p class="title">Keep Your Brain Young with Music</p>
+          <p class="is-size-6-mobile">
+            If You are somehow influenced by the content written on this page, I
+            have thoughtfully compiled numerous playlists on multiple platforms.
+            Go check them out. Enjoy, Relax or Experiment either way go for it.
+          </p>
+          <div
+            class="my-6 is-flex is-justify-content-space-around is-align-items-center"
+          >
+            <a href="">
+              <i
+                class="blog-music-icons-c fab fa-spotify is-size-3-touch is-size-2-desktop"
+              ></i>
+            </a>
+            <a href="">
+              <i
+                class="blog-music-icons-c fab fa-soundcloud is-size-3-touch is-size-2-desktop"
+              ></i>
+            </a>
+
+            <a href="">
+              <i
+                class="blog-music-icons-c fab fa-itunes is-size-3-touch is-size-2-desktop"
+              ></i>
+            </a>
+
+            <a href="">
+              <i
+                class="blog-music-icons-c fas fa-compact-disc is-size-3-touch is-size-2-desktop"
+              ></i>
+            </a>
+          </div>
+        </div>
+        <hr />
+        <p class="title has-text-centered">Other Posts</p>
+
+        <a href="./exercise and productivity.html">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img
+                  src="./assets/images/Exercise Woman.jpg"
+                  alt="Placeholder image"
+                />
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">Exercise and Productivity</p>
+              <div class="content">
+                A blog on the relationship between exercise and productivity
+
+                <br />
+                <hr />
+
+                <p class="date has-text-right">March 11 , 2019</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Blog Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer py-2 px-0 mx-0 has-text-white">
+      <div
+        class="bottom-container-c py-0 my-0 is-flex is-justify-content-space-between is-align-items-center"
+      >
+        <div
+          class="copyright-container-c is-size-6-mobile is-size-6-tablet is-size-5-desktop mb-5"
+        >
+          &copy;Thomas Alemayehu 2021
+        </div>
+        <div class="icons-container-c is-flex has-text-centered px-0">
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i
+              class="footer-icons-c fab fa-facebook is-size-3 is-size-5-mobile is-size-4-desktop is-size-3-widescreen ml-6 mr-6"
+            ></i
+          ></a>
+          <a href="https://twitter.com/home" target="_blank">
+            <i
+              class="footer-icons-c fab fa-twitter is-size-3 is-size-5-mobile is-size-4-desktop is-size-3-widescreen mr-6"
+            ></i>
+          </a>
+          <a
+            href="https://www.instagram.com/thomas.alemayehu_off/"
+            target="_blank"
+          >
+            <i
+              class="footer-icons-c fab fa-instagram is-size-3 is-size-5-mobile is-size-4-desktop is-size-3-widescreen mr-6"
+            ></i
+          ></a>
+          <a href="https://www.youtube.com/" target="_blank">
+            <i
+              class="footer-icons-c fab fa-youtube is-size-3 is-size-5-mobile is-size-4-desktop is-size-3-widescreen mr-6"
+            ></i>
+          </a>
+          <a href="https://github.com/thomasalemayehu" target="_blank">
+            <i
+              class="footer-icons-c fab fa-github is-size-3 is-size-5-mobile is-size-4-desktop is-size-3-widescreen mr-6"
+            ></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Section End -->
+
+    <!-- Materialize Script -->
+
+    <!-- <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.1.1.min.js"
+    ></script> -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  </body>
+</html>

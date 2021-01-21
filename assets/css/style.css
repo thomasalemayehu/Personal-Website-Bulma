@@ -54,6 +54,9 @@ html {
 }
 
 /* About Me Section */
+.section {
+  font-family: "Quicksand", sans-serif;
+}
 .hero-about-text-c {
   font-family: "Quicksand", sans-serif;
   line-height: 160%;
@@ -160,6 +163,13 @@ html {
 }
 .date {
   font-style: italic;
+}
+.blog-content-c {
+  font-family: "Quicksand", sans-serif;
+}
+.blog-music-icons-c {
+  text-decoration: none;
+  color: black;
 }
 
 /*Contact  */

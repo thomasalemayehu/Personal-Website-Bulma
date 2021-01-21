@@ -20,7 +20,7 @@ function activateHamburger() {
           $target.classList.toggle("is-active");
           // Toggle the is-side-navigation custom class to make navigation from side
 
-          // $target.classList.toggle("is-side-navigation");
+          $target.classList.toggle("is-side-navigation");
         });
       });
     }

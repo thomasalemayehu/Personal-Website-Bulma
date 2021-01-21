@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+
+    <!-- Materialize For Carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
+    />
+
+    <!-- Bulma CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css"
+    />
+
+    <!-- Fontawesome Link -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Potta+One&family=Quicksand:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Local CSS Link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/query.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width:1215px)"
+      href="./assets/css/animations.css"
+    />
+
+    <!-- Local JS Link -->
+    <script defer src="./assets/js/app.js"></script>
+  </head>
+  <body class="has-navbar-fixed-top">
+    <!-- Navigation Section Start -->
+    <nav
+      class="navbar py-1 is-white is-fixed-top has-shadow"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="container is-fluid">
+        <div class="navbar-brand is-uppercase">
+          <a
+            class="navbar-item has-text-black has-background-white is-size-7-mobile is-size-5-tablet is-size-6-desktop is-size-4-widescreen mr-3"
+            href="index.html"
+          >
+            <span class="has-text-weight-semibold mr-2">Thomas</span>
+            Alemayehu
+          </a>
+
+          <a
+            class="navbar-burger has-background-white px-2"
+            data-target="collapseNavbar"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="collapseNavbar" class="navbar-menu">
+          <div class="navbar-end">
+            <a href="./index.html" class="navbar-item mr-2 navbar-navigation-c">
+              <i class="fas fa-home mr-2"></i>
+              <p>Home</p>
+
+              <i
+                class="fas fa-times is-size-7 ml-2 close-icon-navigation-c"
+              ></i>
+            </a>
+
+            <a href="./index.html" class="navbar-item mr-2 navbar-navigation-c">
+              <i class="fas fa-user-secret mr-2"></i>
+              About
+              <i
+                class="fas fa-times is-size-7 ml-2 close-icon-navigation-c"
+              ></i>
+            </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link mr-2 navbar-navigation-c">
+                <i class="fas fa-briefcase mr-2"></i>
+                Portfolio
+                <i
+                  class="fas fa-times is-size-7 ml-2 close-icon-navigation-c"
+                ></i>
+              </a>
+
+              <div class="navbar-dropdown">
+                <a
+                  class="navbar-item is-capitalized is-size-6"
+                  href="./index.html"
+                >
+                  <i
+                    class="fas fa-pen-nib mr-2 is-size-7-touch is-size-5-desktop"
+                  ></i>
+                  What I'm adept at
+                </a>
+                <a
+                  class="navbar-item has-text-black is-capitalized is-size-6"
+                  href="./index.html"
+                >
+                  <i
+                    class="fas fa-wrench mr-2 is-size-7-touch is-size-5-desktop"
+                  ></i>
+                  Some of my Works
+                </a>
+              </div>
+            </div>
+            <a href="./index.html" class="navbar-item mr-2 navbar-navigation-c">
+              <i class="fas fa-rss mr-2"></i>
+              Blog
+              <i
+                class="fas fa-times is-size-7 ml-2 close-icon-navigation-c"
+              ></i>
+            </a>
+            <a
+              href="#contact-section"
+              class="navbar-item mr-5 navbar-navigation-c"
+            >
+              <i class="fas fa-globe mr-2"></i>
+              Contact
+              <i
+                class="fas fa-times is-size-7 ml-2 close-icon-navigation-c"
+              ></i>
+            </a>
+
+            <div
+              class="social-media-container is-flex is-align-items-center is-justify-content-space-between"
+            >
+              <a
+                href="https://twitter.com/home"
+                target="_blank"
+                class="navbar-item has-text-black has-background-white navbar-social-icons-c"
+              >
+                <i
+                  class="fab fa-twitter is-size-6-mobile is-size-5-tablet is-size-6-desktop mr-2"
+                ></i>
+              </a>
+              <a
+                href="https://www.instagram.com/thomas.alemayehu_off/"
+                class="navbar-item has-text-black has-background-white navbar-social-icons-c"
+                target="_blank"
+              >
+                <i
+                  class="fab fa-instagram is-size-6-mobile is-size-5-tablet is-size-6-desktop mr-2"
+                ></i>
+              </a>
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                class="navbar-item has-text-black has-background-white navbar-social-icons-c"
+              >
+                <i
+                  class="fab fa-youtube is-size-6-mobile is-size-5-tablet is-size-6-desktop"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigation Section End -->
+
+    <!-- Blog Section Start -->
+    <div class="columns my-6 px-6 blog-content-c">
+      <div class="column is-8 mr-2 mb-3">
+        <p class="title has-text-centered">Exercise and Productivity</p>
+        <p class="mb-5 is-size-6-mobile is-size-5-desktop">
+          We all know exercise keeps you healthy but exercising can also
+          increase productivity in all areas of your life. Not only does
+          exercise give you more energy and stop that afternoon fatigue slump,
+          exercise keeps momentum and it improves mental capacity. In theory,
+          exercise helps with ‘brain fog’.Exercise is shown to reduce stress,
+          combat fatigue, improve performance and lead to fewer workday
+          absences. A natural stress reducer, exercise combats chronic stress
+          often suffered by workers. With exercise your sleep quality also
+          improves, thus, you wake rested and ready to tackle another day.
+        </p>
+
+        <p class="mb-5 is-size-6-mobile is-size-5-desktop">
+          Moreover, exercise increases your energy capacity, every time you
+          exercise and push your limits, your body recovers and your energy
+          capacity is increased. Exercise ensures proper brain function in the
+          hippocampus region. Not only does exercise keep blood, glucose and
+          oxygen levels high, feeding the brain, it releases endorphins into the
+          body giving your mood a boost. Aerobic exercise is shown to change the
+          size of the area of the brain involved in memory and learning.
+        </p>
+        <p class="mb-5 is-size-6-mobile is-size-5-desktop">
+          Busy working professionals find it hard to fit exercise into their
+          hectic schedules, but taking time for exercise actually increases
+          mental acuity. Exercise truly feeds the brain, essential if you’re
+          going to be more effective and efficient. When your brain is
+          performing at full capacity, you focus better, concentrate more, and
+          thus make smarter decisions.
+        </p>
+
+        <p class="mb-5 is-size-6-mobile is-size-5-desktop">
+          More and more companies are allowing employees to take exercise at
+          work. Big giants like Google led the way with in-office gyms and Nike
+          have in-office yoga classes for their employees. Companies are
+          noticing the benefits exercise has on employee productivity. Studies
+          of office workers who regularly exercise found that long sitting time
+          at work was linked to a lower work productivity and decreased mental
+          well-being. Employers have taken to implementing ‘sit less, move more’
+          interventions such as standing desks and offering employees time for
+          exercise during working hours to improve work productivity.
+        </p>
+
+        <p class="mb-5 is-size-6-mobile is-size-5-desktop">
+          Intelligent physical exercise training (IPET) at work was studied in
+          Denmark with a range of occupations including dentists, office and
+          computer workers and healthcare workers. The results showed in all
+          jobs participants improved cardio respiratory health and muscle
+          strength, these health improvements, in turn, saw increased
+          productivity and fewer lost work days through illness.
+        </p>
+
+        <p class="mb-5 is-size-6-mobile is-size-5-desktop">
+          Your boss might not offer this holistic approach, or if you want to do
+          more exercise out of work hours, knowing which exercises are best for
+          increasing work production is key. <br />
+          Now we look at which type of exercise is scientifically proven to
+          increase productivity and creativity.
+        </p>
+
+        <p class="title is-4">Walking</p>
+        <p class="mb-5 is-size-6-mobile is-size-5-desktop">
+          Yes, simply walking as exercise gets those creative juices flowing. In
+          fact, one study shows that when walking and after creativity was
+          increased, with some participants up to 81 percent. Another study
+          showed that a lunchtime walk for 30 minutes helps battle that
+          afternoon slump and the need to reach for the caffeine pick me up.
+          Participants felt less stressed, less fatigued and were more alert,
+          enabling them to easily cope with the workload. Walking to work or a
+          lunchtime stroll is a cheap form of exercise that raises your heart
+          rate and is easy to fit into your schedule. Indoors on a treadmill or
+          outdoors walking are both beneficial to increasing your productivity.
+        </p>
+
+        <p class="title is-4">Recall a memory from long ago</p>
+        <p class="mb-5 is-size-6-mobile is-size-5-desktop">
+          Reach for familiar music, especially if it stems from the same time
+          period that you are trying to recall. Listening to the Beatles might
+          bring you back to the first moment you laid eyes on your spouse, for
+          instance.
+        </p>
+
+        <p class="title is-4">Yoga</p>
+        <p class="mb-5 is-size-6-mobile is-size-5-desktop">
+          Yoga’s principle teachings help to improve production. Studies have
+          shown the positive effects of practicing yoga on self-esteem and
+          motivation, in turn, increases a person’s ability to cope with stress
+          load. Increased creativity, ability to problem-solve and higher energy
+          levels were seen by participants.
+        </p>
+
+        <p class="date has-text-right mt-6">March 11 , 2019</p>
+      </div>
+
+      <div class="column">
+        <div class="title has-text-centered">Other Posts</div>
+        <a href="./music and brain.html">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="./assets/images/Music .jpg" alt="Placeholder image" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">Music and the Brain</p>
+              <div class="content">
+                A blog on the relationship between music and brain
+
+                <br />
+                <hr />
+
+                <p class="date has-text-right">January 25 , 2020</p>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="./index.html">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="./assets/images/AI.jpg" alt="Placeholder image" />
+              </figure>
+            </div>
+            <div class="card-content">
+              <p class="title is-4">Artificial Intelligence</p>
+              <div class="content">
+                A blog about concepts of Artificial intelligence
+
+                <br />
+                <hr />
+
+                <p class="date has-text-right">January 12 , 2021</p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- Blog Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer py-2 px-0 mx-0 has-text-white">
+      <div
+        class="bottom-container-c py-0 my-0 is-flex is-justify-content-space-between is-align-items-center"
+      >
+        <div
+          class="copyright-container-c is-size-6-mobile is-size-6-tablet is-size-5-desktop mb-5"
+        >
+          &copy;Thomas Alemayehu 2021
+        </div>
+        <div class="icons-container-c is-flex has-text-centered px-0">
+          <a href="https://www.facebook.com/" target="_blank"
+            ><i
+              class="footer-icons-c fab fa-facebook is-size-3 is-size-5-mobile is-size-4-desktop is-size-3-widescreen ml-6 mr-6"
+            ></i
+          ></a>
+          <a href="https://twitter.com/home" target="_blank">
+            <i
+              class="footer-icons-c fab fa-twitter is-size-3 is-size-5-mobile is-size-4-desktop is-size-3-widescreen mr-6"
+            ></i>
+          </a>
+          <a
+            href="https://www.instagram.com/thomas.alemayehu_off/"
+            target="_blank"
+          >
+            <i
+              class="footer-icons-c fab fa-instagram is-size-3 is-size-5-mobile is-size-4-desktop is-size-3-widescreen mr-6"
+            ></i
+          ></a>
+          <a href="https://www.youtube.com/" target="_blank">
+            <i
+              class="footer-icons-c fab fa-youtube is-size-3 is-size-5-mobile is-size-4-desktop is-size-3-widescreen mr-6"
+            ></i>
+          </a>
+          <a href="https://github.com/thomasalemayehu" target="_blank">
+            <i
+              class="footer-icons-c fab fa-github is-size-3 is-size-5-mobile is-size-4-desktop is-size-3-widescreen mr-6"
+            ></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Section End -->
+
+    <!-- Materialize Script -->
+
+    <!-- <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-2.1.1.min.js"
+    ></script> -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  </body>
+</html>

@@ -740,3 +740,11 @@ html {
     align-items: center;
   }
 }
+
+/* Animation */
+.work__image__containers:hover {
+  flex: 5;
+}
+.work__image__containers:hover > div {
+  visibility: visible;
+}

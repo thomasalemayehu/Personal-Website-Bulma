@@ -10,14 +10,9 @@
   background-color: black !important;
   color: white !important;
 }
-.navbar-navigation-c:hover nav {
-}
+
 .navbar-social-icons-c:hover {
   opacity: 0.6;
-}
-
-.work__image__containers:hover {
-  flex: 5;
 }
 
 .work__image__containers:hover > div {

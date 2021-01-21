@@ -116,24 +116,24 @@ html {
 }
 
 .work__flying-fish {
-  background-image: url("../images/work/Flying\ Fish.jpg");
+  background-image: url("../images/Flying\ Fish.jpg");
   background-size: cover;
   background-position: top;
 }
 
 .work__radiating-heart {
-  background-image: url("../images/work/Radiating\ Heart.jpg");
+  background-image: url("../images/Radiating\ Heart.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .work__true-chains {
-  background-image: url("../images/work/Chained\ To\ The\ Moon.jpg");
+  background-image: url("../images/Chained\ To\ The\ Moon.jpg");
   background-size: cover;
 }
 
 .work__lost-in {
-  background-image: url("../images/work/Lost\ In\ Your\ Thought.jpg");
+  background-image: url("../images/Lost\ In\ Your\ Thought.jpg");
   background-size: cover;
 }
 
@@ -211,4 +211,532 @@ html {
 .footer-icons-c {
   text-decoration: none;
   color: white !important;
+}
+
+/* Media Queries */
+/* Mobile Devices */
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  /* Navigation Section */
+  .social-media-container {
+    width: 40%;
+  }
+
+  /* Hero Section */
+  .hero {
+    height: 93vh;
+  }
+  /* About Section */
+  .is-reversed-touch-c {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .carousel {
+    height: 210px;
+    width: 315px;
+    perspective: 150px;
+  }
+  .carousel .carousel-item {
+    width: 231px;
+    height: 196px;
+  }
+  .info-text {
+    line-height: 150%;
+    font-size: 16px;
+  }
+
+  /* SkillS Page */
+  .progress-bar-html-c,
+  .progress-bar-css-c,
+  .progress-bar-py-c {
+    position: relative;
+    width: 80%;
+    height: 20px;
+  }
+  .progress-bar-js-c,
+  .progress-bar-xd-c {
+    position: relative;
+    width: 70%;
+    height: 20px;
+  }
+  .progress-bar-html-value-c,
+  .progress-bar-css-value-c,
+  .progress-bar-js-value-c,
+  .progress-bar-py-value-c,
+  .progress-bar-xd-value-c {
+    left: 89%;
+    position: absolute;
+    font-size: 13.6px;
+    padding-right: 2px;
+  }
+
+  .project-description-c {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 21px;
+    font-weight: bold;
+  }
+
+  .contact-form-container-c {
+    margin: auto;
+
+    width: 90%;
+  }
+  .info-section-c {
+    padding: 0;
+  }
+  .contact-info-container-c {
+    padding: 0;
+  }
+  /* Footer */
+  .subscribe-container-c {
+    position: unset;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+  .subscribe-input-container-c {
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom-container-c {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .icons-container-c {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .is-side-navigation {
+    width: 60%;
+    margin-left: 50%;
+    height: 100vh;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 449px) {
+  .my-works-container-c {
+    flex-flow: column wrap;
+  }
+  .work__image__containers {
+    flex: 2;
+  }
+  .work__image__containers .work__caption {
+    padding: 0.5rem;
+    font-size: 10.5px;
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 619px) {
+  .work__image__containers .work__caption {
+    padding: 0.5rem;
+    font-size: 11.5px;
+    line-height: 120%;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 768px) {
+  .carousel {
+    height: 285px;
+    width: 427.5px;
+    perspective: 200px;
+  }
+  .carousel .carousel-item {
+    width: 313.5px;
+    height: 266px;
+  }
+
+  /* SkillS Page */
+
+  .progress-bar-html-value-c,
+  .progress-bar-css-value-c,
+  .progress-bar-js-value-c,
+  .progress-bar-py-value-c,
+  .progress-bar-xd-value-c {
+    left: 93%;
+    font-size: 14px;
+  }
+
+  /* Works Page */
+  .work__image__containers .work__caption {
+    padding: 0.6rem;
+    font-size: 12.5px;
+    line-height: 120%;
+  }
+}
+/* Tablet Devices */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .social-media-container {
+    width: 50%;
+  }
+  /* About Section */
+  .is-reversed-touch-c {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .carousel {
+    height: 270px;
+    width: 405px;
+    perspective: 200px;
+  }
+  .carousel .carousel-item {
+    width: 280.5px;
+    height: 238px;
+  }
+  .info-text {
+    line-height: 150%;
+    font-size: 16px;
+  }
+  /* Skills Page */
+  .progress-bar-html-value-c,
+  .progress-bar-css-value-c,
+  .progress-bar-js-value-c,
+  .progress-bar-py-value-c,
+  .progress-bar-xd-value-c {
+    left: 88%;
+    font-size: 13px;
+  }
+  .project-description-c {
+    padding-right: 1.4rem;
+    padding-left: 1.4rem;
+    font-size: 27px;
+    font-weight: bold;
+  }
+
+  .contact-form-container-c {
+    margin: auto;
+    width: 100%;
+  }
+  .info-section-c {
+    padding: 0;
+  }
+  .contact-info-container-c {
+    padding: 0;
+    width: 60%;
+    margin: auto;
+  }
+
+  /* Footer */
+  .subscribe-container-c {
+    position: unset;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .subscribe-input-container-c {
+    display: flex;
+    flex-direction: row;
+  }
+  .bottom-container-c {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 25px;
+  }
+
+  .copyright-container-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icons-container-c {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .is-side-navigation {
+    width: 45%;
+    margin-left: 60%;
+    height: 100vh;
+  }
+}
+
+/* Desktop Devices */
+@media screen and (min-width: 1024px) and (max-width: 1215px) {
+  .navbar-brand {
+    letter-spacing: 2.2px;
+  }
+  .carousel {
+    height: 300px;
+    width: 450px;
+    perspective: 250px;
+  }
+  .carousel .carousel-item {
+    width: 330px;
+    height: 280px;
+  }
+  .info-text {
+    line-height: 160%;
+    font-size: 18px;
+    padding-left: 2rem;
+  }
+  /* Skills Page */
+  .progress-bar-html-value-c,
+  .progress-bar-css-value-c,
+  .progress-bar-js-value-c,
+  .progress-bar-py-value-c,
+  .progress-bar-xd-value-c {
+    left: 90%;
+    font-size: 14px;
+  }
+  .project-description-c {
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
+    font-size: 31px;
+    font-weight: normal;
+  }
+  .contact-form-container-c {
+    margin: auto;
+    width: 90%;
+  }
+  .info-section-c {
+    padding-right: 0;
+    padding-left: 3%;
+  }
+  .contact-info-container-c {
+    padding: 0;
+  }
+
+  /* Footer */
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 120px;
+  }
+  .subscribe-container-c {
+    position: absolute;
+    z-index: 5;
+    top: -45%;
+    left: 7.5%;
+    height: 16vh;
+    margin: 0;
+    width: 85%;
+    padding: 15px;
+  }
+  .subscribe-input-container-c {
+    display: flex;
+    flex-direction: row;
+  }
+  .bottom-container-c {
+    padding-left: 21px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .copyright-container-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icons-container-c {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* Widescreen Devices*/
+@media screen and (min-width: 1215px) and (max-width: 1407px) {
+  .navbar-brand {
+    letter-spacing: 3px;
+  }
+  .carousel {
+    height: 360px;
+    width: 540px;
+    perspective: 275px;
+  }
+  .carousel .carousel-item {
+    width: 346.5px;
+    height: 294px;
+  }
+  .info-text {
+    line-height: 160%;
+    font-size: 19px;
+    padding-left: 2.2rem;
+  }
+  .progress-bar-html-c,
+  .progress-bar-css-c,
+  .progress-bar-py-c {
+    position: relative;
+  }
+  .progress-bar-html-value-c,
+  .progress-bar-css-value-c,
+  .progress-bar-js-value-c,
+  .progress-bar-py-value-c,
+  .progress-bar-xd-value-c {
+    left: 93%;
+    font-size: 14px;
+    padding-right: 5px;
+  }
+  .progress-bar-js-c,
+  .progress-bar-xd-c {
+    height: 20px;
+  }
+  .project-description-c {
+    padding-right: 2.1rem;
+    padding-left: 2.1rem;
+    font-size: 33px;
+    font-weight: normal;
+  }
+  .contact-form-container-c {
+    margin: auto;
+    width: 95%;
+  }
+  .info-section-c {
+    padding-right: 0;
+    padding-left: 3%;
+  }
+  .contact-info-container-c {
+    padding: 0;
+  }
+
+  /* Footer */
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 120px;
+  }
+  .subscribe-container-c {
+    position: absolute;
+    z-index: 5;
+    top: -45%;
+    left: 5%;
+    height: 15vh;
+    margin: 0;
+    width: 90%;
+    padding: 10px;
+  }
+  .subscribe-input-container-c {
+    display: flex;
+    flex-direction: row;
+  }
+  .bottom-container-c {
+    padding-left: 21px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .copyright-container-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icons-container-c {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+/* Full HD Devices */
+@media screen and (min-width: 1407px) {
+  .navbar-item {
+    font-size: 1.2rem;
+  }
+
+  .carousel {
+    height: 360px;
+    width: 540px;
+    perspective: 275px;
+  }
+  .carousel .carousel-item {
+    width: 363px;
+    height: 308px;
+  }
+  .info-text {
+    line-height: 160%;
+    font-size: 19px;
+    padding-left: 2.2rem;
+  }
+
+  /* Skills Page */
+  .progress-bar-html-value-c,
+  .progress-bar-css-value-c,
+  .progress-bar-js-value-c,
+  .progress-bar-py-value-c,
+  .progress-bar-xd-value-c {
+    font-size: 15.5px;
+  }
+  .project-description-c {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    font-size: 36px;
+    font-weight: normal;
+  }
+  .contact-form-container-c {
+    margin: auto;
+    width: 90%;
+  }
+  .info-section-c {
+    padding-right: 0;
+    padding-left: 5%;
+  }
+  /* Footer */
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 120px;
+  }
+  .subscribe-container-c {
+    position: absolute;
+    z-index: 5;
+    top: -45%;
+    left: 5%;
+    height: 28vh;
+    margin: 0;
+    width: 90%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .subscribe-input-container-c {
+    display: flex;
+    flex-direction: row;
+  }
+  .bottom-container-c {
+    padding-left: 21px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .copyright-container-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icons-container-c {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 }
